@@ -1,0 +1,29 @@
+{
+  "name": "freighthub-coding-challenge",
+  "version": "1.0.0",
+  "description": "Thank you for taking the time to face this coding challenge. It should take approximately one hour to complete this challenge. _Use Typescript code to solve these challenges._ If you need to look up something for this, mark it clearly. Inform codingchallenge@freighthub.com as soon as you are done. Good luck!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "dev": "ts-node-dev --respawn --transpileOnly ./index.ts",
+    "prod": "tsc && node ./build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freight-hub/freighthub-coding-challenge.git"
+  },
+  "author": " <jees.jees5@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/freight-hub/freighthub-coding-challenge/issues"
+  },
+  "homepage": "https://github.com/freight-hub/freighthub-coding-challenge#readme",
+  "dependencies": {
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.7.3"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.17"
+  }
+}

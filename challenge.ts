@@ -5,7 +5,7 @@ async function sleep(ms: number) {
 }
 
 async function randomDelay() {
-    const randomTime = Math.round(Math.random() * 1000)
+    const randomTime = Math.round(Math.random() * 1000);
     return sleep(randomTime)
 }
 
@@ -27,5 +27,7 @@ class ShipmentSearchIndex {
 
 // Implementation needed
 interface ShipmentUpdateListenerInterface {
-    receiveUpdate(id: string, shipmentData: any)
+    receiveUpdate(id: string, shipmentData: any): void;
 }
+
+export { ShipmentSearchIndex, ShipmentUpdateListenerInterface };
